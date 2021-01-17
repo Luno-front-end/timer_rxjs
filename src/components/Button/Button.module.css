@@ -1,0 +1,64 @@
+.button {
+  color: white;
+  background-color: black;
+
+  min-width: 100px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  font-size: 17px;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  outline: none;
+}
+.button:not(:last-child) {
+  margin-right: 25px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 4px;
+}
+.button:focus {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 4px;
+}
+.dubleClickMe {
+  color: white;
+  background-color: black;
+
+  min-width: 100px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  font-size: 17px;
+
+  border: none;
+  border-radius: 8px;
+
+  outline: none;
+}
+button:disabled,
+button[disabled] {
+  background-color: rgba(70, 70, 70, 0.548);
+}
+
+button:disabled:hover,
+button[disabled] {
+  background-color: rgba(70, 70, 70, 0.548);
+  color: white;
+}
+button:disabled,
+button[disabled] {
+  background-color: rgba(70, 70, 70, 0.548);
+}
