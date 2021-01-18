@@ -1,6 +1,6 @@
 import s from "./Timer.module.css";
 
-function Timer({ ms }) {
+export default function Timer({ ms }) {
   return (
     <div>
       <span className={s.timer}>
